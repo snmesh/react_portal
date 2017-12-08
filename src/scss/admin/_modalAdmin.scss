@@ -1,0 +1,40 @@
+#headerUsersAdmin,#headerSTAdmin{
+    height: 28px;
+    background: #303a46;
+}
+#headerUsersAdmin > button,#headerSTAdmin > button {
+    float: right;
+}
+#saveModal{
+    float: right;
+    margin: 30px 15px;
+}
+#user_conform{
+    padding-left: 0;
+}
+#company_conform,{
+    padding: 0 0;
+}
+#st_conform{
+    padding-right: 0;
+}
+
+#st_conform > input,#company_conform > input,#headerSTAdmin > div:nth-child(2) > select {
+    cursor: default;
+}
+// цвет РГ в таблице пользователи
+#headerUsersAdmin > div.col-lg-9.col-md-12.col-sm-12 > textarea{
+    color: #001dff;
+}
+// Цвета звёздочек обязательных полей
+#headerUsersAdmin > div > span > span,#headerSTAdmin > div > span > span{
+    padding-left: 5px;
+    color: #f00;
+}
+// показать все группы
+#headerSTAdmin > div > label{
+    position: absolute;
+    margin-left: 90px;
+    z-index: 999;
+    font-weight: 400;
+}

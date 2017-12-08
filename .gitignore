@@ -1,0 +1,8 @@
+# OS generated files #
+######################
+/node_modules/
+/.vscode/
+/public/js/bundle.js
+/public/css/style.css
+/etc/config.json
+/server/log/

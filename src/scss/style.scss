@@ -1,0 +1,45 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    background: #fafafa !important;
+        
+    /*text-rendering: optimizeLegibility !important;*/
+    /*-webkit-font-smoothing: subpixel-antialiased !important;*/
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !important;
+}
+tr,td{
+    cursor: default !important;
+}
+button{
+    border-radius: 0 !important;
+}
+#root{
+    position: relative;
+}
+textarea {
+    resize: none; /* Запрещаем изменять размер */
+   } 
+@import 'admin/header';
+@import 'admin/body';
+@import 'admin/modalAdmin';
+
+@import 'header';
+@import 'login';
+@import 'err404';
+@import 'leftMenu';
+
+@import 'newGridTransport';
+@import 'gridExpl';
+@import 'orderTransp';
+@import 'datapicker';
+@import 'directories';
+@import 'history';
+
+.nameService{
+    display: inline-block;
+    vertical-align: top;
+}
